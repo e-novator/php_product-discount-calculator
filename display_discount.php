@@ -46,6 +46,17 @@ $discount_price_formatted = "$".number_format($discount_price, 2);
 
         <label>Total Cost:</label>
         <span><?php echo $discount_price_formatted ?></span><br>
+
+        <div id="buttons">
+        <label>&nbsp;</label>
+          <button type="button"><a href="index.html">Go Back</a></button>
+        </div>
     </main>
 </body>
+<footer class="my_details">
+    <p>***********************************************************************************</p>
+    <p>Author: Bathandwa Mavuso</p>
+    <p>Email: mavuso.bathandwa365@gmail.com</p>
+    <p>***********************************************************************************</p>
+</footer>
 </html>
